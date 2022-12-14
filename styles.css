@@ -1,0 +1,83 @@
+
+header1 {color: black;
+  font-size: 50px;}
+
+.intro{ padding: 30px;
+ text-align: center;
+ background: #f1f1f1;
+   border: 2px solid saddlebrown;
+}
+.logo{
+font-size: 20px;
+}
+.links{
+  color: black;
+}
+
+ h1 {color: black;
+ font-size: 30px}
+  h2 {color: 	saddlebrown;
+  font-size: 20px}
+
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+h1
+ {
+  border: 2px solid saddlebrown;
+  padding: 30px;
+  margin: 00px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+    }
+    .cafe coffee{
+    display: block;
+    margin-left: auto;
+    }
+      .bakrey
+      {
+        display: block;
+        margin-left: auto;
+      }
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.footer-social{
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.menu{
+  display: flex;
+}
+.menu ul li{
+  text-align: center;
+  height: 20px;
+  float: left;
+  color:#add;
+  font-size: 0.5em;
+  position: relative;
+}
+.menu ul li{
+  display: none;
+}
+.menu ul li:hover li{
+  display: block;
+}
+.menu .active{
+  opacity:1;
+}
+.menu li a:hover{
+  opacity:1;
+  transition: all ease 0.3s;
+  color: #add;
